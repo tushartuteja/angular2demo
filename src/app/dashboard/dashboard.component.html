@@ -1,0 +1,10 @@
+<h1> This is the dashboard component </h1>
+
+  <ul>
+    <li *ngFor="let p of peoples">
+      <a [routerLink]="['/single', p.id]"> {{p.firstName}}
+
+      </a>
+     
+    </li>
+  </ul>
