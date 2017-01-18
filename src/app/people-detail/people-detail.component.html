@@ -1,0 +1,7 @@
+<div class="people">
+  <input [(ngModel)]="people.firstName" />
+  <button (click)="update.emit(people)" >My Event</button>
+<label>First Name: </label>{{people.firstName}}<br>
+<label>Last Name: </label>{{people.lastName}}<br>
+<label>Age: </label>{{people.age}}<br>
+</div>
